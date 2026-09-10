@@ -25,7 +25,7 @@ public class MathToolApplication {
 		);
 	}
 
-	MathToolApplication(
+	public MathToolApplication(
 			CommandLineParser commandLineParser,
 			EquationSolver equationSolver,
 			SolutionPrinter solutionPrinter,
