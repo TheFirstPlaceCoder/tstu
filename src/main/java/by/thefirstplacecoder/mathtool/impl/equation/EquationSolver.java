@@ -1,6 +1,6 @@
-package by.thefirstplacecoder.mathtool;
+package by.thefirstplacecoder.mathtool.impl.equation;
 
-public final class EquationSolver {
+public class EquationSolver {
 
 	public EquationSolution solve(Equation equation) {
 		if (equation == null) {

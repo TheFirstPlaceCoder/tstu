@@ -1,4 +1,4 @@
-package by.thefirstplacecoder.mathtool;
+package by.thefirstplacecoder.mathtool.impl.equation;
 
 public sealed interface EquationSolution
 		permits EquationSolution.LinearSolution,

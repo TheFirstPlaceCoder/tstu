@@ -1,9 +1,9 @@
-package by.thefirstplacecoder.mathtool;
+package by.thefirstplacecoder.mathtool.impl.equation;
 
 import java.io.PrintStream;
 import java.util.Locale;
 
-public final class SolutionPrinter {
+public class SolutionPrinter {
 
 	public void print(
 			EquationSolution solution,
