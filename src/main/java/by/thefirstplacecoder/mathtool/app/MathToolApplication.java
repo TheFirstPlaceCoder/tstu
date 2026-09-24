@@ -216,7 +216,7 @@ public class MathToolApplication {
     }
 
     private void printNumber(String name, double value, int digits) {
-        out.printf(Locale.ROOT, "%s: %." + digits + "f%n", name, digits, value == 0.0 ? 0.0 : value);
+        out.printf(Locale.ROOT, "%s: %." + digits + "f%n", name, value == 0.0 ? 0.0 : value);
     }
 
     private void printHelp(String command) {
