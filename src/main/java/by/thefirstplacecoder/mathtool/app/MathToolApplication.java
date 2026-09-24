@@ -152,8 +152,9 @@ public class MathToolApplication {
     private double[] readNumbersFromScanner() {
         List<Double> values = new ArrayList<>();
 
-        while (scanner.hasNextLine()) {
-            addNumbers(scanner.nextLine(), values);
+        String line = "";
+        while (scanner.hasNextLine() && !(line = scanner.nextLine()).isBlank()) {
+            addNumbers(line, values);
         }
 
         return toArray(values);
