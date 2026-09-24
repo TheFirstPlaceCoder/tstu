@@ -22,9 +22,6 @@ public class IntegrationCalculator {
 
     private static final Map<String, FunctionDefinition> FUNCTIONS = createFunctions();
 
-    private IntegrationCalculator() {
-    }
-
     public static double ratio(double x) {
         return x / (x + 1.0);
     }

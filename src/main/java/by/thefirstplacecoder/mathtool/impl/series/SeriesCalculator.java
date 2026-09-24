@@ -21,9 +21,6 @@ public class SeriesCalculator {
 
     private static final Map<String, SeriesDefinition> SERIES = createSeries();
 
-    private SeriesCalculator() {
-    }
-
     public static int sign(int n) {
         return n % 2 == 0 ? -1 : 1;
     }

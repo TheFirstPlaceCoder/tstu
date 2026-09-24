@@ -7,9 +7,6 @@ public final class StatisticsCalculator {
     public static final int MAX_VALUES = 20;
     public static final double MAX_ABS_VALUE = 10_000.0;
 
-    private StatisticsCalculator() {
-    }
-
     public static void validate(double[] values) {
         if (values == null || values.length == 0) {
             throw new MathToolException("последовательность пуста");
